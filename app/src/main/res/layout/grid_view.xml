@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gridLayoutMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="3"
+    android:orientation="horizontal"
+    android:rowCount="3">
+
+
+    <ImageButton
+        android:layout_width="145dp"
+        android:layout_height="230dp"
+        android:layout_row="0"
+        android:layout_rowSpan="1"
+        android:layout_column="0"
+        android:layout_columnSpan="1"
+        android:background="@drawable/image02"
+        android:onClick="imageClicked" />
+
+    <ImageButton
+        android:layout_width="145dp"
+        android:layout_height="230dp"
+        android:layout_row="0"
+        android:layout_rowSpan="1"
+        android:layout_column="1"
+        android:layout_columnSpan="1"
+        android:background="@drawable/image03"
+        android:onClick="imageClicked" />
+
+    <ImageView
+        android:layout_width="145dp"
+        android:layout_height="230dp"
+        android:layout_row="0"
+        android:layout_rowSpan="1"
+        android:layout_column="2"
+        android:layout_columnSpan="1"
+        android:background="@drawable/image01"
+        android:onClick="imageClicked" />
+
+    <ImageView
+        android:layout_width="145dp"
+        android:layout_height="230dp"
+        android:layout_row="1"
+        android:layout_rowSpan="1"
+        android:layout_column="0"
+        android:layout_columnSpan="1"
+        android:background="@drawable/image04"
+        android:onClick="imageClicked" />
+
+    <ImageView
+        android:layout_width="145dp"
+        android:layout_height="230dp"
+        android:layout_row="1"
+        android:layout_rowSpan="1"
+        android:layout_column="1"
+        android:layout_columnSpan="1"
+        android:background="@drawable/image05"
+        android:onClick="imageClicked" />
+
+    <ImageView
+        android:layout_width="145dp"
+        android:layout_height="230dp"
+        android:layout_row="1"
+        android:layout_rowSpan="1"
+        android:layout_column="2"
+        android:layout_columnSpan="1"
+        android:background="@drawable/image06"
+        android:onClick="imageClicked" />
+
+    <ImageView
+        android:layout_width="145dp"
+        android:layout_height="230dp"
+        android:layout_row="2"
+        android:layout_rowSpan="1"
+        android:layout_column="0"
+        android:layout_columnSpan="1"
+        android:background="@drawable/image07"
+        android:onClick="imageClicked" />
+
+    <ImageView
+        android:layout_width="145dp"
+        android:layout_height="230dp"
+        android:layout_row="2"
+        android:layout_rowSpan="1"
+        android:layout_column="1"
+        android:layout_columnSpan="1"
+        android:background="@drawable/image08"
+        android:onClick="imageClicked" />
+
+    <ImageView
+        android:layout_width="145dp"
+        android:layout_height="230dp"
+        android:layout_row="2"
+        android:layout_rowSpan="1"
+        android:layout_column="2"
+        android:layout_columnSpan="1"
+        android:background="@drawable/image09"
+        android:onClick="imageClicked" />
+
+</GridLayout>
